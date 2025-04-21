@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N algo_1_premade_102400_samples_dV_0.0_samp_fr_150
+#PBS -P gs_scbe_r.ni
+#PBS -q gpu_v100
+#PBS -l select=1:ncpus=4:ngpus=1
+#PBS -j oe
+#PBS -o /home/n2401517d/my_workspace/flow_state/hybrid_NF_MCMC/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/algo_1_premade_102400_samples_dV_0.0_samp_fr_150.out
+#PBS -l walltime=24:00:00
+
+# Create the results directory on the compute node (in case it doesn't exist)
+mkdir -p /home/n2401517d/my_workspace/flow_state/hybrid_NF_MCMC/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150
+
+# Change directory to where the algorithm script is located and run it
+cd /home/n2401517d/my_workspace/flow_state/hybrid_NF_MCMC/
+python -u main_algorithm_1.py     --experiment_id algo_1_premade_102400_samples_dV_0.0_samp_fr_150 > /home/n2401517d/my_workspace/flow_state/hybrid_NF_MCMC/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/algo_1_premade_102400_samples_dV_0.0_samp_fr_150_prints.out 2>&1

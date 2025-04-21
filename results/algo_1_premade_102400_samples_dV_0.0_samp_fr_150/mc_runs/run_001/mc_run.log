@@ -1,0 +1,156 @@
+2025-04-21 15:51:55,234 - MC_run_001 - DEBUG - Randomly chosen particle index = 0
+2025-04-21 15:51:55,236 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:51:55,238 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:51:55,239 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:51:55,289 - MC_run_001 - DEBUG - Sampling at cycle 150: E/N=-10.403, P=0.012, rho=0.030
+2025-04-21 15:51:55,335 - MC_run_001 - DEBUG - Sampling at cycle 300: E/N=-10.245, P=0.009, rho=0.030
+2025-04-21 15:51:55,382 - MC_run_001 - DEBUG - Sampling at cycle 450: E/N=-9.868, P=0.172, rho=0.030
+2025-04-21 15:51:55,429 - MC_run_001 - DEBUG - Sampling at cycle 600: E/N=-10.626, P=0.023, rho=0.030
+2025-04-21 15:51:55,476 - MC_run_001 - DEBUG - Sampling at cycle 750: E/N=-10.635, P=0.017, rho=0.030
+2025-04-21 15:51:55,524 - MC_run_001 - DEBUG - Sampling at cycle 900: E/N=-10.685, P=0.043, rho=0.030
+2025-04-21 15:51:55,571 - MC_run_001 - DEBUG - Sampling at cycle 1050: E/N=-10.482, P=0.039, rho=0.030
+2025-04-21 15:51:55,617 - MC_run_001 - DEBUG - Sampling at cycle 1200: E/N=-10.608, P=0.035, rho=0.030
+2025-04-21 15:51:55,664 - MC_run_001 - DEBUG - Sampling at cycle 1350: E/N=-10.458, P=0.004, rho=0.030
+2025-04-21 15:51:55,710 - MC_run_001 - DEBUG - Sampling at cycle 1500: E/N=-10.403, P=0.029, rho=0.030
+2025-04-21 15:51:55,756 - MC_run_001 - DEBUG - Sampling at cycle 1650: E/N=-10.168, P=0.099, rho=0.030
+2025-04-21 15:51:55,803 - MC_run_001 - DEBUG - Sampling at cycle 1800: E/N=-10.314, P=0.060, rho=0.030
+2025-04-21 15:51:55,849 - MC_run_001 - DEBUG - Sampling at cycle 1950: E/N=-10.926, P=0.025, rho=0.030
+2025-04-21 15:51:55,896 - MC_run_001 - DEBUG - Sampling at cycle 2100: E/N=-10.500, P=0.016, rho=0.030
+2025-04-21 15:51:55,942 - MC_run_001 - DEBUG - Sampling at cycle 2250: E/N=-10.707, P=-0.000, rho=0.030
+2025-04-21 15:51:55,989 - MC_run_001 - DEBUG - Sampling at cycle 2400: E/N=-9.871, P=0.347, rho=0.030
+2025-04-21 15:51:56,035 - MC_run_001 - DEBUG - Sampling at cycle 2550: E/N=-10.292, P=0.249, rho=0.030
+2025-04-21 15:51:56,082 - MC_run_001 - DEBUG - Sampling at cycle 2700: E/N=-10.270, P=0.073, rho=0.030
+2025-04-21 15:51:56,128 - MC_run_001 - DEBUG - Sampling at cycle 2850: E/N=-10.129, P=0.255, rho=0.030
+2025-04-21 15:51:56,174 - MC_run_001 - DEBUG - Sampling at cycle 3000: E/N=-9.947, P=0.015, rho=0.030
+2025-04-21 15:51:56,221 - MC_run_001 - DEBUG - Sampling at cycle 3150: E/N=-10.079, P=0.064, rho=0.030
+2025-04-21 15:51:56,267 - MC_run_001 - DEBUG - Sampling at cycle 3300: E/N=-10.928, P=0.035, rho=0.030
+2025-04-21 15:51:56,314 - MC_run_001 - DEBUG - Sampling at cycle 3450: E/N=-10.489, P=0.081, rho=0.030
+2025-04-21 15:51:56,360 - MC_run_001 - DEBUG - Sampling at cycle 3600: E/N=-10.528, P=-0.010, rho=0.030
+2025-04-21 15:51:56,406 - MC_run_001 - DEBUG - Sampling at cycle 3750: E/N=-10.761, P=0.004, rho=0.030
+2025-04-21 15:51:56,453 - MC_run_001 - DEBUG - Sampling at cycle 3900: E/N=-10.527, P=0.006, rho=0.030
+2025-04-21 15:51:56,499 - MC_run_001 - DEBUG - Sampling at cycle 4050: E/N=-10.068, P=0.013, rho=0.030
+2025-04-21 15:51:56,546 - MC_run_001 - DEBUG - Sampling at cycle 4200: E/N=-10.838, P=0.019, rho=0.030
+2025-04-21 15:51:56,592 - MC_run_001 - DEBUG - Sampling at cycle 4350: E/N=-10.561, P=0.016, rho=0.030
+2025-04-21 15:51:56,639 - MC_run_001 - DEBUG - Sampling at cycle 4500: E/N=-9.949, P=0.312, rho=0.030
+2025-04-21 15:51:56,685 - MC_run_001 - DEBUG - Sampling at cycle 4650: E/N=-10.347, P=-0.001, rho=0.030
+2025-04-21 15:51:56,731 - MC_run_001 - DEBUG - Sampling at cycle 4800: E/N=-10.658, P=0.056, rho=0.030
+2025-04-21 15:51:56,778 - MC_run_001 - DEBUG - Sampling at cycle 4950: E/N=-10.352, P=0.190, rho=0.030
+2025-04-21 15:51:56,793 - MC_run_001 - DEBUG - Adjusting max displacement from 0.650 to 0.673, acceptance fraction in last block = 0.518
+2025-04-21 15:52:08,052 - MC_run_001 - INFO - Equilibrated configuration plot saved to: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/mc_runs/run_001/equilibrated_config.png
+2025-04-21 15:54:00,986 - MC_run_001 - DEBUG - Randomly chosen particle index = 0
+2025-04-21 15:54:00,988 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:54:00,989 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:54:00,991 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:54:01,038 - MC_run_001 - DEBUG - Sampling at cycle 150: E/N=-10.403, P=0.012, rho=0.030
+2025-04-21 15:54:01,084 - MC_run_001 - DEBUG - Sampling at cycle 300: E/N=-10.245, P=0.009, rho=0.030
+2025-04-21 15:54:01,131 - MC_run_001 - DEBUG - Sampling at cycle 450: E/N=-9.868, P=0.172, rho=0.030
+2025-04-21 15:54:01,177 - MC_run_001 - DEBUG - Sampling at cycle 600: E/N=-10.626, P=0.023, rho=0.030
+2025-04-21 15:54:01,224 - MC_run_001 - DEBUG - Sampling at cycle 750: E/N=-10.635, P=0.017, rho=0.030
+2025-04-21 15:54:01,270 - MC_run_001 - DEBUG - Sampling at cycle 900: E/N=-10.685, P=0.043, rho=0.030
+2025-04-21 15:54:01,317 - MC_run_001 - DEBUG - Sampling at cycle 1050: E/N=-10.482, P=0.039, rho=0.030
+2025-04-21 15:54:01,363 - MC_run_001 - DEBUG - Sampling at cycle 1200: E/N=-10.608, P=0.035, rho=0.030
+2025-04-21 15:54:01,409 - MC_run_001 - DEBUG - Sampling at cycle 1350: E/N=-10.458, P=0.004, rho=0.030
+2025-04-21 15:54:01,455 - MC_run_001 - DEBUG - Sampling at cycle 1500: E/N=-10.403, P=0.029, rho=0.030
+2025-04-21 15:54:01,502 - MC_run_001 - DEBUG - Sampling at cycle 1650: E/N=-10.168, P=0.099, rho=0.030
+2025-04-21 15:54:01,548 - MC_run_001 - DEBUG - Sampling at cycle 1800: E/N=-10.314, P=0.060, rho=0.030
+2025-04-21 15:54:01,594 - MC_run_001 - DEBUG - Sampling at cycle 1950: E/N=-10.926, P=0.025, rho=0.030
+2025-04-21 15:54:01,640 - MC_run_001 - DEBUG - Sampling at cycle 2100: E/N=-10.500, P=0.016, rho=0.030
+2025-04-21 15:54:01,686 - MC_run_001 - DEBUG - Sampling at cycle 2250: E/N=-10.707, P=-0.000, rho=0.030
+2025-04-21 15:54:01,732 - MC_run_001 - DEBUG - Sampling at cycle 2400: E/N=-9.871, P=0.347, rho=0.030
+2025-04-21 15:54:01,778 - MC_run_001 - DEBUG - Sampling at cycle 2550: E/N=-10.292, P=0.249, rho=0.030
+2025-04-21 15:54:01,825 - MC_run_001 - DEBUG - Sampling at cycle 2700: E/N=-10.270, P=0.073, rho=0.030
+2025-04-21 15:54:01,871 - MC_run_001 - DEBUG - Sampling at cycle 2850: E/N=-10.129, P=0.255, rho=0.030
+2025-04-21 15:54:01,917 - MC_run_001 - DEBUG - Sampling at cycle 3000: E/N=-9.947, P=0.015, rho=0.030
+2025-04-21 15:54:01,964 - MC_run_001 - DEBUG - Sampling at cycle 3150: E/N=-10.079, P=0.064, rho=0.030
+2025-04-21 15:54:02,010 - MC_run_001 - DEBUG - Sampling at cycle 3300: E/N=-10.928, P=0.035, rho=0.030
+2025-04-21 15:54:02,056 - MC_run_001 - DEBUG - Sampling at cycle 3450: E/N=-10.489, P=0.081, rho=0.030
+2025-04-21 15:54:02,103 - MC_run_001 - DEBUG - Sampling at cycle 3600: E/N=-10.528, P=-0.010, rho=0.030
+2025-04-21 15:54:02,149 - MC_run_001 - DEBUG - Sampling at cycle 3750: E/N=-10.761, P=0.004, rho=0.030
+2025-04-21 15:54:02,195 - MC_run_001 - DEBUG - Sampling at cycle 3900: E/N=-10.527, P=0.006, rho=0.030
+2025-04-21 15:54:02,241 - MC_run_001 - DEBUG - Sampling at cycle 4050: E/N=-10.068, P=0.013, rho=0.030
+2025-04-21 15:54:02,288 - MC_run_001 - DEBUG - Sampling at cycle 4200: E/N=-10.838, P=0.019, rho=0.030
+2025-04-21 15:54:02,334 - MC_run_001 - DEBUG - Sampling at cycle 4350: E/N=-10.561, P=0.016, rho=0.030
+2025-04-21 15:54:02,381 - MC_run_001 - DEBUG - Sampling at cycle 4500: E/N=-9.949, P=0.312, rho=0.030
+2025-04-21 15:54:02,427 - MC_run_001 - DEBUG - Sampling at cycle 4650: E/N=-10.347, P=-0.001, rho=0.030
+2025-04-21 15:54:02,473 - MC_run_001 - DEBUG - Sampling at cycle 4800: E/N=-10.658, P=0.056, rho=0.030
+2025-04-21 15:54:02,510 - MC_run_001 - DEBUG - Sampling at cycle 4950: E/N=-10.352, P=0.190, rho=0.030
+2025-04-21 15:54:02,522 - MC_run_001 - DEBUG - Adjusting max displacement from 0.650 to 0.673, acceptance fraction in last block = 0.518
+2025-04-21 15:54:13,567 - MC_run_001 - INFO - Equilibrated configuration plot saved to: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/mc_runs/run_001/equilibrated_config.png
+2025-04-21 15:55:22,072 - MC_run_001 - DEBUG - Randomly chosen particle index = 0
+2025-04-21 15:55:22,073 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:55:22,074 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:55:22,074 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 15:55:22,121 - MC_run_001 - DEBUG - Sampling at cycle 150: E/N=-10.403, P=0.012, rho=0.030
+2025-04-21 15:55:22,168 - MC_run_001 - DEBUG - Sampling at cycle 300: E/N=-10.245, P=0.009, rho=0.030
+2025-04-21 15:55:22,215 - MC_run_001 - DEBUG - Sampling at cycle 450: E/N=-9.868, P=0.172, rho=0.030
+2025-04-21 15:55:22,261 - MC_run_001 - DEBUG - Sampling at cycle 600: E/N=-10.626, P=0.023, rho=0.030
+2025-04-21 15:55:22,308 - MC_run_001 - DEBUG - Sampling at cycle 750: E/N=-10.635, P=0.017, rho=0.030
+2025-04-21 15:55:22,355 - MC_run_001 - DEBUG - Sampling at cycle 900: E/N=-10.685, P=0.043, rho=0.030
+2025-04-21 15:55:22,401 - MC_run_001 - DEBUG - Sampling at cycle 1050: E/N=-10.482, P=0.039, rho=0.030
+2025-04-21 15:55:22,448 - MC_run_001 - DEBUG - Sampling at cycle 1200: E/N=-10.608, P=0.035, rho=0.030
+2025-04-21 15:55:22,494 - MC_run_001 - DEBUG - Sampling at cycle 1350: E/N=-10.458, P=0.004, rho=0.030
+2025-04-21 15:55:22,541 - MC_run_001 - DEBUG - Sampling at cycle 1500: E/N=-10.403, P=0.029, rho=0.030
+2025-04-21 15:55:22,587 - MC_run_001 - DEBUG - Sampling at cycle 1650: E/N=-10.168, P=0.099, rho=0.030
+2025-04-21 15:55:22,634 - MC_run_001 - DEBUG - Sampling at cycle 1800: E/N=-10.314, P=0.060, rho=0.030
+2025-04-21 15:55:22,680 - MC_run_001 - DEBUG - Sampling at cycle 1950: E/N=-10.926, P=0.025, rho=0.030
+2025-04-21 15:55:22,727 - MC_run_001 - DEBUG - Sampling at cycle 2100: E/N=-10.500, P=0.016, rho=0.030
+2025-04-21 15:55:22,773 - MC_run_001 - DEBUG - Sampling at cycle 2250: E/N=-10.707, P=-0.000, rho=0.030
+2025-04-21 15:55:22,819 - MC_run_001 - DEBUG - Sampling at cycle 2400: E/N=-9.871, P=0.347, rho=0.030
+2025-04-21 15:55:22,865 - MC_run_001 - DEBUG - Sampling at cycle 2550: E/N=-10.292, P=0.249, rho=0.030
+2025-04-21 15:55:22,912 - MC_run_001 - DEBUG - Sampling at cycle 2700: E/N=-10.270, P=0.073, rho=0.030
+2025-04-21 15:55:22,958 - MC_run_001 - DEBUG - Sampling at cycle 2850: E/N=-10.129, P=0.255, rho=0.030
+2025-04-21 15:55:23,004 - MC_run_001 - DEBUG - Sampling at cycle 3000: E/N=-9.947, P=0.015, rho=0.030
+2025-04-21 15:55:23,051 - MC_run_001 - DEBUG - Sampling at cycle 3150: E/N=-10.079, P=0.064, rho=0.030
+2025-04-21 15:55:23,097 - MC_run_001 - DEBUG - Sampling at cycle 3300: E/N=-10.928, P=0.035, rho=0.030
+2025-04-21 15:55:23,143 - MC_run_001 - DEBUG - Sampling at cycle 3450: E/N=-10.489, P=0.081, rho=0.030
+2025-04-21 15:55:23,187 - MC_run_001 - DEBUG - Sampling at cycle 3600: E/N=-10.528, P=-0.010, rho=0.030
+2025-04-21 15:55:23,223 - MC_run_001 - DEBUG - Sampling at cycle 3750: E/N=-10.761, P=0.004, rho=0.030
+2025-04-21 15:55:23,259 - MC_run_001 - DEBUG - Sampling at cycle 3900: E/N=-10.527, P=0.006, rho=0.030
+2025-04-21 15:55:23,296 - MC_run_001 - DEBUG - Sampling at cycle 4050: E/N=-10.068, P=0.013, rho=0.030
+2025-04-21 15:55:23,332 - MC_run_001 - DEBUG - Sampling at cycle 4200: E/N=-10.838, P=0.019, rho=0.030
+2025-04-21 15:55:23,369 - MC_run_001 - DEBUG - Sampling at cycle 4350: E/N=-10.561, P=0.016, rho=0.030
+2025-04-21 15:55:23,405 - MC_run_001 - DEBUG - Sampling at cycle 4500: E/N=-9.949, P=0.312, rho=0.030
+2025-04-21 15:55:23,441 - MC_run_001 - DEBUG - Sampling at cycle 4650: E/N=-10.347, P=-0.001, rho=0.030
+2025-04-21 15:55:23,477 - MC_run_001 - DEBUG - Sampling at cycle 4800: E/N=-10.658, P=0.056, rho=0.030
+2025-04-21 15:55:23,514 - MC_run_001 - DEBUG - Sampling at cycle 4950: E/N=-10.352, P=0.190, rho=0.030
+2025-04-21 15:55:23,526 - MC_run_001 - DEBUG - Adjusting max displacement from 0.650 to 0.673, acceptance fraction in last block = 0.518
+2025-04-21 15:55:34,863 - MC_run_001 - INFO - Equilibrated configuration plot saved to: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/mc_runs/run_001/equilibrated_config.png
+2025-04-21 16:27:55,714 - MC_run_001 - DEBUG - Randomly chosen particle index = 0
+2025-04-21 16:27:55,727 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 16:27:55,728 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 16:27:55,729 - MC_run_001 - DEBUG - Randomly chosen particle index = 2
+2025-04-21 16:27:55,766 - MC_run_001 - DEBUG - Sampling at cycle 150: E/N=-10.403, P=0.012, rho=0.030
+2025-04-21 16:27:55,803 - MC_run_001 - DEBUG - Sampling at cycle 300: E/N=-10.245, P=0.009, rho=0.030
+2025-04-21 16:27:55,840 - MC_run_001 - DEBUG - Sampling at cycle 450: E/N=-9.868, P=0.172, rho=0.030
+2025-04-21 16:27:55,877 - MC_run_001 - DEBUG - Sampling at cycle 600: E/N=-10.626, P=0.023, rho=0.030
+2025-04-21 16:27:55,915 - MC_run_001 - DEBUG - Sampling at cycle 750: E/N=-10.635, P=0.017, rho=0.030
+2025-04-21 16:27:55,952 - MC_run_001 - DEBUG - Sampling at cycle 900: E/N=-10.685, P=0.043, rho=0.030
+2025-04-21 16:27:55,989 - MC_run_001 - DEBUG - Sampling at cycle 1050: E/N=-10.482, P=0.039, rho=0.030
+2025-04-21 16:27:56,026 - MC_run_001 - DEBUG - Sampling at cycle 1200: E/N=-10.608, P=0.035, rho=0.030
+2025-04-21 16:27:56,063 - MC_run_001 - DEBUG - Sampling at cycle 1350: E/N=-10.458, P=0.004, rho=0.030
+2025-04-21 16:27:56,100 - MC_run_001 - DEBUG - Sampling at cycle 1500: E/N=-10.403, P=0.029, rho=0.030
+2025-04-21 16:27:56,138 - MC_run_001 - DEBUG - Sampling at cycle 1650: E/N=-10.168, P=0.099, rho=0.030
+2025-04-21 16:27:56,175 - MC_run_001 - DEBUG - Sampling at cycle 1800: E/N=-10.314, P=0.060, rho=0.030
+2025-04-21 16:27:56,213 - MC_run_001 - DEBUG - Sampling at cycle 1950: E/N=-10.926, P=0.025, rho=0.030
+2025-04-21 16:27:56,250 - MC_run_001 - DEBUG - Sampling at cycle 2100: E/N=-10.500, P=0.016, rho=0.030
+2025-04-21 16:27:56,287 - MC_run_001 - DEBUG - Sampling at cycle 2250: E/N=-10.707, P=-0.000, rho=0.030
+2025-04-21 16:27:56,324 - MC_run_001 - DEBUG - Sampling at cycle 2400: E/N=-9.871, P=0.347, rho=0.030
+2025-04-21 16:27:56,361 - MC_run_001 - DEBUG - Sampling at cycle 2550: E/N=-10.292, P=0.249, rho=0.030
+2025-04-21 16:27:56,399 - MC_run_001 - DEBUG - Sampling at cycle 2700: E/N=-10.270, P=0.073, rho=0.030
+2025-04-21 16:27:56,436 - MC_run_001 - DEBUG - Sampling at cycle 2850: E/N=-10.129, P=0.255, rho=0.030
+2025-04-21 16:27:56,473 - MC_run_001 - DEBUG - Sampling at cycle 3000: E/N=-9.947, P=0.015, rho=0.030
+2025-04-21 16:27:56,510 - MC_run_001 - DEBUG - Sampling at cycle 3150: E/N=-10.079, P=0.064, rho=0.030
+2025-04-21 16:27:56,547 - MC_run_001 - DEBUG - Sampling at cycle 3300: E/N=-10.928, P=0.035, rho=0.030
+2025-04-21 16:27:56,586 - MC_run_001 - DEBUG - Sampling at cycle 3450: E/N=-10.489, P=0.081, rho=0.030
+2025-04-21 16:27:56,623 - MC_run_001 - DEBUG - Sampling at cycle 3600: E/N=-10.528, P=-0.010, rho=0.030
+2025-04-21 16:27:56,660 - MC_run_001 - DEBUG - Sampling at cycle 3750: E/N=-10.761, P=0.004, rho=0.030
+2025-04-21 16:27:56,697 - MC_run_001 - DEBUG - Sampling at cycle 3900: E/N=-10.527, P=0.006, rho=0.030
+2025-04-21 16:27:56,734 - MC_run_001 - DEBUG - Sampling at cycle 4050: E/N=-10.068, P=0.013, rho=0.030
+2025-04-21 16:27:56,771 - MC_run_001 - DEBUG - Sampling at cycle 4200: E/N=-10.838, P=0.019, rho=0.030
+2025-04-21 16:27:56,808 - MC_run_001 - DEBUG - Sampling at cycle 4350: E/N=-10.561, P=0.016, rho=0.030
+2025-04-21 16:27:56,845 - MC_run_001 - DEBUG - Sampling at cycle 4500: E/N=-9.949, P=0.312, rho=0.030
+2025-04-21 16:27:56,882 - MC_run_001 - DEBUG - Sampling at cycle 4650: E/N=-10.347, P=-0.001, rho=0.030
+2025-04-21 16:27:56,919 - MC_run_001 - DEBUG - Sampling at cycle 4800: E/N=-10.658, P=0.056, rho=0.030
+2025-04-21 16:27:56,956 - MC_run_001 - DEBUG - Sampling at cycle 4950: E/N=-10.352, P=0.190, rho=0.030
+2025-04-21 16:27:56,969 - MC_run_001 - DEBUG - Adjusting max displacement from 0.650 to 0.673, acceptance fraction in last block = 0.518
+2025-04-21 16:28:09,031 - MC_run_001 - INFO - Equilibrated configuration plot saved to: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/mc_runs/run_001/equilibrated_config.png

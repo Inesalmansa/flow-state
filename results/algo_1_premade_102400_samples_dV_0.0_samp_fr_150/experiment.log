@@ -1,0 +1,130 @@
+2025-04-21 15:51:52,431 - experiment - INFO - half box is: 5.0
+2025-04-21 15:51:52,432 - experiment - INFO - Directory created at: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150
+2025-04-21 15:51:52,456 - experiment - INFO - Experiment parameters saved to /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/params.json
+2025-04-21 15:51:52,478 - experiment - INFO - run 0 starts in left
+2025-04-21 15:51:52,558 - experiment - INFO - Monte Carlo run 0 initialised and stored
+2025-04-21 15:51:52,575 - experiment - INFO - run 1 starts in right
+2025-04-21 15:51:52,577 - experiment - INFO - Monte Carlo run 1 initialised and stored
+2025-04-21 15:51:52,596 - experiment - INFO - run 2 starts in left
+2025-04-21 15:51:52,599 - experiment - INFO - Monte Carlo run 2 initialised and stored
+2025-04-21 15:51:52,661 - experiment - INFO - run 3 starts in right
+2025-04-21 15:51:52,664 - experiment - INFO - Monte Carlo run 3 initialised and stored
+2025-04-21 15:51:52,746 - experiment - INFO - run 4 starts in left
+2025-04-21 15:51:52,748 - experiment - INFO - Monte Carlo run 4 initialised and stored
+2025-04-21 15:51:52,775 - experiment - INFO - run 5 starts in right
+2025-04-21 15:51:52,777 - experiment - INFO - Monte Carlo run 5 initialised and stored
+2025-04-21 15:51:52,806 - experiment - INFO - run 6 starts in left
+2025-04-21 15:51:52,808 - experiment - INFO - Monte Carlo run 6 initialised and stored
+2025-04-21 15:51:52,828 - experiment - INFO - run 7 starts in right
+2025-04-21 15:51:52,830 - experiment - INFO - Monte Carlo run 7 initialised and stored
+2025-04-21 15:51:52,854 - experiment - INFO - run 8 starts in left
+2025-04-21 15:51:52,856 - experiment - INFO - Monte Carlo run 8 initialised and stored
+2025-04-21 15:51:52,888 - experiment - INFO - run 9 starts in right
+2025-04-21 15:51:52,890 - experiment - INFO - Monte Carlo run 9 initialised and stored
+2025-04-21 15:51:55,231 - experiment - INFO - All Monte Carlo runs initialised
+2025-04-21 15:51:55,233 - experiment - INFO - list of run instances: [<MCMC.monte_carlo.MonteCarlo object at 0x7f5807b21cd0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b20f10>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b234d0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b1ac50>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b68590>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b197d0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b18350>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b090d0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b51b90>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b0bcd0>]
+2025-04-21 15:52:10,057 - experiment - INFO - device is: cuda
+2025-04-21 15:52:10,821 - experiment - INFO - Total unique samples: 102400
+2025-04-21 15:52:11,022 - experiment - INFO - DataLoader details:
+2025-04-21 15:52:11,023 - experiment - INFO - Dataset size: 102400
+2025-04-21 15:52:11,024 - experiment - INFO - Number of batches: 200
+2025-04-21 15:52:11,038 - experiment - INFO - Shape of data in first batch: torch.Size([512, 6])
+2025-04-21 15:52:11,983 - experiment - INFO - Model prepared with 3 particles and 2 dimensions!
+2025-04-21 15:52:13,350 - experiment - INFO - Optimizer prepared with learning rate: 0.0001
+2025-04-21 15:53:58,803 - experiment - INFO - half box is: 5.0
+2025-04-21 15:53:58,804 - experiment - INFO - Directory created at: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150
+2025-04-21 15:53:58,821 - experiment - INFO - Experiment parameters saved to /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/params.json
+2025-04-21 15:53:58,826 - experiment - INFO - run 0 starts in left
+2025-04-21 15:53:58,829 - experiment - INFO - Monte Carlo run 0 initialised and stored
+2025-04-21 15:53:58,834 - experiment - INFO - run 1 starts in right
+2025-04-21 15:53:58,837 - experiment - INFO - Monte Carlo run 1 initialised and stored
+2025-04-21 15:53:58,845 - experiment - INFO - run 2 starts in left
+2025-04-21 15:53:58,847 - experiment - INFO - Monte Carlo run 2 initialised and stored
+2025-04-21 15:53:58,853 - experiment - INFO - run 3 starts in right
+2025-04-21 15:53:58,856 - experiment - INFO - Monte Carlo run 3 initialised and stored
+2025-04-21 15:53:58,861 - experiment - INFO - run 4 starts in left
+2025-04-21 15:53:58,863 - experiment - INFO - Monte Carlo run 4 initialised and stored
+2025-04-21 15:53:58,867 - experiment - INFO - run 5 starts in right
+2025-04-21 15:53:58,869 - experiment - INFO - Monte Carlo run 5 initialised and stored
+2025-04-21 15:53:58,874 - experiment - INFO - run 6 starts in left
+2025-04-21 15:53:58,875 - experiment - INFO - Monte Carlo run 6 initialised and stored
+2025-04-21 15:53:58,879 - experiment - INFO - run 7 starts in right
+2025-04-21 15:53:58,881 - experiment - INFO - Monte Carlo run 7 initialised and stored
+2025-04-21 15:53:58,886 - experiment - INFO - run 8 starts in left
+2025-04-21 15:53:58,887 - experiment - INFO - Monte Carlo run 8 initialised and stored
+2025-04-21 15:53:58,895 - experiment - INFO - run 9 starts in right
+2025-04-21 15:53:58,898 - experiment - INFO - Monte Carlo run 9 initialised and stored
+2025-04-21 15:54:00,984 - experiment - INFO - All Monte Carlo runs initialised
+2025-04-21 15:54:00,985 - experiment - INFO - list of run instances: [<MCMC.monte_carlo.MonteCarlo object at 0x7f5807b4c610>, <MCMC.monte_carlo.MonteCarlo object at 0x7f580fd4ae50>, <MCMC.monte_carlo.MonteCarlo object at 0x7f580fd4ae10>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b1ad90>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b0bf50>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b0a810>, <MCMC.monte_carlo.MonteCarlo object at 0x7f57e02cc750>, <MCMC.monte_carlo.MonteCarlo object at 0x7f57f9e58f50>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b0b990>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b1a810>]
+2025-04-21 15:54:15,246 - experiment - INFO - device is: cuda
+2025-04-21 15:54:15,518 - experiment - INFO - Total unique samples: 102400
+2025-04-21 15:54:15,524 - experiment - INFO - DataLoader details:
+2025-04-21 15:54:15,525 - experiment - INFO - Dataset size: 102400
+2025-04-21 15:54:15,525 - experiment - INFO - Number of batches: 200
+2025-04-21 15:54:15,532 - experiment - INFO - Shape of data in first batch: torch.Size([512, 6])
+2025-04-21 15:55:19,695 - experiment - INFO - half box is: 5.0
+2025-04-21 15:55:19,696 - experiment - INFO - Directory created at: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150
+2025-04-21 15:55:19,852 - experiment - INFO - Experiment parameters saved to /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/params.json
+2025-04-21 15:55:19,858 - experiment - INFO - run 0 starts in left
+2025-04-21 15:55:19,860 - experiment - INFO - Monte Carlo run 0 initialised and stored
+2025-04-21 15:55:19,864 - experiment - INFO - run 1 starts in right
+2025-04-21 15:55:19,864 - experiment - INFO - Monte Carlo run 1 initialised and stored
+2025-04-21 15:55:19,874 - experiment - INFO - run 2 starts in left
+2025-04-21 15:55:19,876 - experiment - INFO - Monte Carlo run 2 initialised and stored
+2025-04-21 15:55:19,998 - experiment - INFO - run 3 starts in right
+2025-04-21 15:55:20,001 - experiment - INFO - Monte Carlo run 3 initialised and stored
+2025-04-21 15:55:20,006 - experiment - INFO - run 4 starts in left
+2025-04-21 15:55:20,007 - experiment - INFO - Monte Carlo run 4 initialised and stored
+2025-04-21 15:55:20,010 - experiment - INFO - run 5 starts in right
+2025-04-21 15:55:20,012 - experiment - INFO - Monte Carlo run 5 initialised and stored
+2025-04-21 15:55:20,014 - experiment - INFO - run 6 starts in left
+2025-04-21 15:55:20,016 - experiment - INFO - Monte Carlo run 6 initialised and stored
+2025-04-21 15:55:20,018 - experiment - INFO - run 7 starts in right
+2025-04-21 15:55:20,020 - experiment - INFO - Monte Carlo run 7 initialised and stored
+2025-04-21 15:55:20,023 - experiment - INFO - run 8 starts in left
+2025-04-21 15:55:20,024 - experiment - INFO - Monte Carlo run 8 initialised and stored
+2025-04-21 15:55:20,030 - experiment - INFO - run 9 starts in right
+2025-04-21 15:55:20,032 - experiment - INFO - Monte Carlo run 9 initialised and stored
+2025-04-21 15:55:22,068 - experiment - INFO - All Monte Carlo runs initialised
+2025-04-21 15:55:22,070 - experiment - INFO - list of run instances: [<MCMC.monte_carlo.MonteCarlo object at 0x7f57d8f2a890>, <MCMC.monte_carlo.MonteCarlo object at 0x7f57d8fe4ad0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f57d9429450>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b1a5d0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b22a50>, <MCMC.monte_carlo.MonteCarlo object at 0x7f58110dc210>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b18610>, <MCMC.monte_carlo.MonteCarlo object at 0x7f57d8372450>, <MCMC.monte_carlo.MonteCarlo object at 0x7f57f9ec9e50>, <MCMC.monte_carlo.MonteCarlo object at 0x7f5807b092d0>]
+2025-04-21 15:55:36,795 - experiment - INFO - device is: cuda
+2025-04-21 15:55:37,064 - experiment - INFO - Total unique samples: 102400
+2025-04-21 15:55:37,077 - experiment - INFO - DataLoader details:
+2025-04-21 15:55:37,078 - experiment - INFO - Dataset size: 102400
+2025-04-21 15:55:37,079 - experiment - INFO - Number of batches: 400
+2025-04-21 15:55:37,087 - experiment - INFO - Shape of data in first batch: torch.Size([256, 6])
+2025-04-21 15:55:38,003 - experiment - INFO - Model prepared with 3 particles and 2 dimensions!
+2025-04-21 15:55:38,309 - experiment - INFO - Optimizer prepared with learning rate: 0.0001
+2025-04-21 16:27:45,816 - experiment - INFO - half box is: 5.0
+2025-04-21 16:27:45,817 - experiment - INFO - Directory created at: /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150
+2025-04-21 16:27:45,827 - experiment - INFO - Experiment parameters saved to /home/n2401517d/my_workspace/flow_state/results/algo_1_premade_102400_samples_dV_0.0_samp_fr_150/params.json
+2025-04-21 16:27:45,832 - experiment - INFO - run 0 starts in left
+2025-04-21 16:27:45,880 - experiment - INFO - Monte Carlo run 0 initialised and stored
+2025-04-21 16:27:45,885 - experiment - INFO - run 1 starts in right
+2025-04-21 16:27:45,887 - experiment - INFO - Monte Carlo run 1 initialised and stored
+2025-04-21 16:27:45,891 - experiment - INFO - run 2 starts in left
+2025-04-21 16:27:45,893 - experiment - INFO - Monte Carlo run 2 initialised and stored
+2025-04-21 16:27:45,897 - experiment - INFO - run 3 starts in right
+2025-04-21 16:27:45,898 - experiment - INFO - Monte Carlo run 3 initialised and stored
+2025-04-21 16:27:45,903 - experiment - INFO - run 4 starts in left
+2025-04-21 16:27:45,903 - experiment - INFO - Monte Carlo run 4 initialised and stored
+2025-04-21 16:27:45,909 - experiment - INFO - run 5 starts in right
+2025-04-21 16:27:45,910 - experiment - INFO - Monte Carlo run 5 initialised and stored
+2025-04-21 16:27:45,913 - experiment - INFO - run 6 starts in left
+2025-04-21 16:27:45,914 - experiment - INFO - Monte Carlo run 6 initialised and stored
+2025-04-21 16:27:45,918 - experiment - INFO - run 7 starts in right
+2025-04-21 16:27:45,919 - experiment - INFO - Monte Carlo run 7 initialised and stored
+2025-04-21 16:27:45,923 - experiment - INFO - run 8 starts in left
+2025-04-21 16:27:45,924 - experiment - INFO - Monte Carlo run 8 initialised and stored
+2025-04-21 16:27:45,929 - experiment - INFO - run 9 starts in right
+2025-04-21 16:27:45,929 - experiment - INFO - Monte Carlo run 9 initialised and stored
+2025-04-21 16:27:55,691 - experiment - INFO - All Monte Carlo runs initialised
+2025-04-21 16:27:55,694 - experiment - INFO - list of run instances: [<MCMC.monte_carlo.MonteCarlo object at 0x7f54f45125d0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f44d38d0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f45533d0>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f45a5d90>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f4560f10>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f4561d90>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f934da50>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f45b5150>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f45a6290>, <MCMC.monte_carlo.MonteCarlo object at 0x7f54f44d09d0>]
+2025-04-21 16:28:20,006 - experiment - INFO - device is: cpu
+2025-04-21 16:28:21,499 - experiment - INFO - Total unique samples: 102400
+2025-04-21 16:28:23,956 - experiment - INFO - DataLoader details:
+2025-04-21 16:28:23,957 - experiment - INFO - Dataset size: 102400
+2025-04-21 16:28:23,958 - experiment - INFO - Number of batches: 400
+2025-04-21 16:28:30,522 - experiment - INFO - Shape of data in first batch: torch.Size([256, 6])
+2025-04-21 16:28:33,718 - experiment - INFO - Model prepared with 3 particles and 2 dimensions!
+2025-04-21 16:31:31,111 - experiment - INFO - Optimizer prepared with learning rate: 0.0001

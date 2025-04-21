@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -N free_energy_analysis
+#PBS -P scbe_r.ni
+#PBS -q qintel_wfly
+#PBS -l select=1:ncpus=4:mem=16gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -o /home/n2401517d/my_workspace/HMC_NF/analysis/logs/free_energy_analysis.log
+
+module load python/3.8.5  # Load the appropriate Python module
+
+ANALYSIS_NAME="free_energy_acc_N3_1.00_KbT"
+BASE_DIR="/home/n2401517d/my_workspace/HMC_NF/results/free_energy_acc_N3_1.00_KbT_N3_102400_samples_1000_big_moves/mc_runs"
+
+cd $PBS_O_WORKDIR
+python /home/n2401517d/my_workspace/HMC_NF/analysis/analyse_free_eng.py $BASE_DIR > /home/n2401517d/my_workspace/HMC_NF/analysis/logs/${ANALYSIS_NAME}_prints.log 2>&1
