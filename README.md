@@ -49,7 +49,7 @@ python hybrid_NF_MCMC/main_algorithm_2.py --experiment_id "hybrid_alg2"
 ```
 
 ## Visualisation
-All plots are generated using LaTeX text style with Imperial College London branding colors for consistency.
+All plots are generated using LaTeX text style with Imperial College London branding colours.
 
 ## Citation
 If you use this code in this work please cite:
