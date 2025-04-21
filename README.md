@@ -49,11 +49,11 @@ python hybrid_NF_MCMC/main_algorithm_2.py --experiment_id "hybrid_alg2"
 ```
 
 ## Visualisation
-All plots are generated using LaTeX with Imperial College London branding colors for consistency.
+All plots are generated using LaTeX text style with Imperial College London branding colors for consistency.
 
 ## Citation
 If you use this code in this work please cite:
-@article{Stimper2023, 
+```@article{Stimper2023, 
   author    = {Vincent Stimper and David Liu and Andrew Campbell and Vincent Berenz and Lukas Ryll and Bernhard Schölkopf and José Miguel Hernández-Lobato}, 
   title     = {normflows: A PyTorch Package for Normalizing Flows}, 
   journal   = {Journal of Open Source Software}, 
@@ -64,4 +64,3 @@ If you use this code in this work please cite:
   doi       = {10.21105/joss.05361}, 
   url       = {https://doi.org/10.21105/joss.05361}, 
   year      = {2023}
-}
