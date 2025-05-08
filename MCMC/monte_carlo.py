@@ -265,7 +265,7 @@ class MonteCarlo:
         delta_energy = enn - eno
         delta_nll = new_nll - old_nll
 
-        ratio_log = -self.beta * delta_energy + delta_nll
+        ratio_log = -self.beta * delta_energy - delta_nll
         ratio = np.exp(ratio_log)
 
         # Debugging for split particles

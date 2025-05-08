@@ -25,6 +25,7 @@ from .scripts import run_experiment_local
 from .scripts import append_results
 from .utils import set_icl_color_cycle
 from .utils import get_icl_heatmap_cmap
+from .potential import lennard_jones_energy_virial, double_well_potential
 
 __all__ = [
     "EnergyCalculator",
@@ -44,5 +45,7 @@ __all__ = [
     "append_results",
     "set_icl_color_cycle",
     "get_icl_heatmap_cmap",
+    "lennard_jones_energy_virial",
+    "double_well_potential"
 ]
 

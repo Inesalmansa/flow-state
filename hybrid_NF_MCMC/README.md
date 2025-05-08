@@ -38,16 +38,6 @@ Three modes of operation:
 
 ---
 
-## Analysis Tools
-
-Located in `analysis/`:
-
-- Trajectory visualization  
-- Pair correlation and well‐population statistics  
-- Energy histograms and convergence plots  
-
----
-
 ## Usage
 
 ```bash

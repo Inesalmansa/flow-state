@@ -1,17 +1,11 @@
 import sys
 import numpy as np
 import time
+from utils import get_project_root
+project_root = get_project_root()
+sys.path.append(project_root + "/MCMC/")
+from potential import lennard_jones_energy_virial, double_well_potential
 
-# Adjusted the import path for the 'potential' module
-path = '/home/n2401517d/my_workspace/LJ_2D_NVT'
-sys.path.append(path)
-# Removed the incorrect path append for 'potential.py' as it's already in the 'LJ_2D_NVT' directory
-# sys.path.append('/home/n2401517d/my_workspace/LJ_2D_NVT/potential.py')
-
-from potential import (
-    lennard_jones_energy_virial,
-    double_well_potential  # Import the double_well_potential function
-)
 
 class EnergyCalculator:
     def __init__(
