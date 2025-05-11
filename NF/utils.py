@@ -210,7 +210,7 @@ def plot_loss(loss_epoch=None, directory=None, base_filename="loss_function", da
             'directory': directory,
             'base_filename': base_filename
         }
-        data_save_path = f'{directory}{base_filename}_data.json'
+        data_save_path = f'{directory}/{base_filename}_data.json'
         with open(data_save_path, 'w') as f:
             json.dump(data, f, indent=4)
     
@@ -219,8 +219,8 @@ def plot_loss(loss_epoch=None, directory=None, base_filename="loss_function", da
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
     
-    loss_plot_path_svg = f'{directory}{base_filename}.svg'
-    loss_plot_path_png = f'{directory}{base_filename}.png'
+    loss_plot_path_svg = f'{directory}/{base_filename}.svg'
+    loss_plot_path_png = f'{directory}/{base_filename}.png'
     
     fig.savefig(loss_plot_path_svg, bbox_inches='tight')
     fig.savefig(loss_plot_path_png, bbox_inches='tight')
@@ -309,7 +309,7 @@ def plot_frequency_heatmap(final_samples=None, directory=None, cmap_div=None, bo
             'base_filename': base_filename,
             'cmap_name': cmap_div.name if hasattr(cmap_div, 'name') else 'viridis'
         }
-        data_save_path = f'{directory}{base_filename}_data.json'
+        data_save_path = f'{directory}/{base_filename}_data.json'
         with open(data_save_path, 'w') as f:
             json.dump(data, f, indent=4)
     
@@ -322,8 +322,8 @@ def plot_frequency_heatmap(final_samples=None, directory=None, cmap_div=None, bo
     plt.xlabel(r'$x$')
     plt.ylabel(r'$y$')
     
-    heatmap_path_svg = f'{directory}{base_filename}.svg'
-    heatmap_path_png = f'{directory}{base_filename}.png'
+    heatmap_path_svg = f'{directory}/{base_filename}.svg'
+    heatmap_path_png = f'{directory}/{base_filename}.png'
     
     fig.savefig(heatmap_path_svg, bbox_inches='tight')
     fig.savefig(heatmap_path_png, bbox_inches='tight')
@@ -412,7 +412,7 @@ def plot_pair_correlation(r_vals=None, g_r=None, directory=None, base_filename="
             'directory': directory,
             'base_filename': base_filename
         }
-        data_save_path = f'{directory}{base_filename}_data.json'
+        data_save_path = f'{directory}/{base_filename}_data.json'
         with open(data_save_path, 'w') as f:
             json.dump(data, f, indent=4)
     
@@ -421,8 +421,8 @@ def plot_pair_correlation(r_vals=None, g_r=None, directory=None, base_filename="
     plt.xlabel(r'$r$ / $\sigma$')
     plt.ylabel(r'$g(r)$')
     
-    pair_corr_path_svg = f'{directory}{base_filename}.svg'
-    pair_corr_path_png = f'{directory}{base_filename}.png'
+    pair_corr_path_svg = f'{directory}/{base_filename}.svg'
+    pair_corr_path_png = f'{directory}/{base_filename}.png'
     
     fig.savefig(pair_corr_path_svg, bbox_inches='tight')
     fig.savefig(pair_corr_path_png, bbox_inches='tight')
@@ -448,7 +448,7 @@ def save_rdf_data(r_vals, g_r, directory, experiment_id):
         "g_r": g_r.tolist() if isinstance(g_r, np.ndarray) else g_r.values.tolist()
     }
     
-    rdf_json_path = f'{directory}rdf_data_{experiment_id}.json'
+    rdf_json_path = f'{directory}/rdf_data_{experiment_id}.json'
     with open(rdf_json_path, 'w') as f:
         json.dump(rdf_data, f, indent=4)
     

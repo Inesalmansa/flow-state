@@ -231,9 +231,9 @@ def plot_potential(box_siz_x, box_size_y, V0_list, r0, k, num_wells, output_path
                         fraction=0.046,   # Make colorbar thinner
                         pad=0.04)   
     cbar.set_label(r'Potential Energy / $k_BT$', fontsize=12)  # Set fontsize for the label
-    min_tick = np.floor(np.min(V_vals))
-    max_tick = np.ceil(np.max(V_vals))
-    cbar.set_ticks(np.arange(min_tick, max_tick + 1, 1))
+    # min_tick = np.floor(np.min(V_vals))
+    # max_tick = np.ceil(np.max(V_vals))
+    # cbar.set_ticks(np.arange(min_tick, max_tick + 1, 1))
     
     ax1.set_aspect('equal', adjustable='box')
     ax1.set_xlabel(r'$x$',fontsize=12)
