@@ -2,18 +2,18 @@
 
 # MCMC Module
 
-A custom Monte Carlo simulation framework for molecular systems, with a focus on the Lennard‐Jones potential featuring double well modifications.
+A custom Markov Chain Monte Carlo simulation framework for particle systems, with implementation of the Lennard‐Jones potential and a double well external potential.
 
 ---
 
 ## Overview
 
-This module implements a Metropoliss sampling algorithm tailored to:
+This module implements a Metropolis sampling algorithm tailored to:
 
 - Double well Lennard‐Jones potential energy  
 - Adaptive maximum displacement scheme within equilibration to reach target acceptance rates 
 - Periodic boundary conditions  
-- Integration Metropolis-Hastings criterion for NF “big‐move” proposals
+- Integration of NF “global‐move” proposals with the Metropolis-Hastings criterion
 
 ---
 
