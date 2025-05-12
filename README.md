@@ -24,7 +24,7 @@ This repository contains the implementation of hybrid algorithms combining Norma
 - 2D NVT MCMC framework with adaptive displacement  
 - Modified normalizing‐flow architecture optimised for PBC molecular configurations 
 - Hybrid algorithms that use deep learning for enhanced sampling  
-- Comprehensive plotting to validate NF models and sampler efficiency
+- Comprehensive plotting to validate NF models and sampling efficiency
 
 ---
 
