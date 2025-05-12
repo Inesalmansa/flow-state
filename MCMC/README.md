@@ -1,5 +1,3 @@
-
-```markdown
 <!-- File: MCMC/README.md -->
 
 # MCMC Module
@@ -10,21 +8,21 @@ A custom Monte Carlo simulation framework for molecular systems, with a focus on
 
 ## Overview
 
-This module implements a Metropolis–Hastings sampling algorithm tailored to:
+This module implements a Metropoliss sampling algorithm tailored to:
 
 - Double well Lennard‐Jones potential energy  
-- Adaptive maximum displacement for target acceptance rates  
+- Adaptive maximum displacement scheme within equilibration to reach target acceptance rates 
 - Periodic boundary conditions  
-- Integration hooks for NF “big‐move” proposals  
+- Integration Metropolis-Hastings criterion for NF “big‐move” proposals
 
 ---
 
 ## Key Components
 
 - **`monte_carlo.py`**: Core Monte Carlo implementation  
-- **`energy_calculator.py`**: Energy and force computations  
+- **`energy_calculator.py`**: Energy computations  
 - **`simulation_box.py`**: Simulation domain and boundary handling  
-- **`visualise.py`**: Trajectory and state‐space visualization  
+- **`visualise.py`**: Trajectory and state‐space visualisation  
 
 ---
 
