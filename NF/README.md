@@ -10,10 +10,8 @@ Modified version of the [normflows](https://github.com/VincentStimper/normalizin
 
 Primary modifications to support molecular sampling:
 
-1. Double well potential in `SimpleLJ` energy function  
-2. Negative log‐likelihood for the Uniform base distribution  
-3. Circular spline flows for periodic boundary conditions  
-4. API hooks for MCMC integration  
+1. Double well potential and Lennard Jones potential within `SimpleLJ` energy function  
+2. Uniform base distribution including Negative log‐likelihood for train-by-energy
 
 ---
 
@@ -45,4 +43,22 @@ model = nf.NormalizingFlow(base, flow_layers).to(device)
 #   loss = -model.log_prob(batch)
 #   model.backward_step(loss)
 #   samples = model.sample(num_samples)
+```
+
+## Citation
+The code for this normalizing flow package comes from:
+
+```
+@article{Stimper2023, 
+  author = {Vincent Stimper and David Liu and Andrew Campbell and Vincent Berenz and Lukas Ryll and Bernhard Schölkopf and José Miguel Hernández-Lobato}, 
+  title = {normflows: A PyTorch Package for Normalizing Flows}, 
+  journal = {Journal of Open Source Software}, 
+  volume = {8},
+  number = {86}, 
+  pages = {5361}, 
+  publisher = {The Open Journal}, 
+  doi = {10.21105/joss.05361}, 
+  url = {https://doi.org/10.21105/joss.05361}, 
+  year = {2023}
+} 
 ```
