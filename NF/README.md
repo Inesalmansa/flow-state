@@ -1,5 +1,3 @@
-
-```markdown
 <!-- File: NF/README.md -->
 
 # NF Module
