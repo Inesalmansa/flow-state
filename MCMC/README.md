@@ -46,7 +46,7 @@ particles, sim_box = initialise_low_left(
                 checking=checking
             )
 
-# Initialize Monte Carlo
+# Initialise Monte Carlo sampler
 mc = MonteCarlo(
     positions= 
     n_particles=num_particles,
