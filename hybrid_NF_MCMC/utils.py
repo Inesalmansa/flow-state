@@ -401,7 +401,7 @@ def plot_loss(loss_epoch=None, directory=None, base_filename="loss_function", da
     else:
         # Save data for future use
         data = {'loss_epoch': loss_epoch if isinstance(loss_epoch, list) else loss_epoch.tolist()}
-        data_path = f'{directory}{base_filename}_data.json'
+        data_path = f'{directory}/{base_filename}_data.json'
         with open(data_path, 'w') as f:
             json.dump(data, f)
     
@@ -410,8 +410,8 @@ def plot_loss(loss_epoch=None, directory=None, base_filename="loss_function", da
     plt.xlabel('Iteration')
     plt.ylabel('Loss')
     
-    loss_plot_path_svg = f'{directory}{base_filename}.svg'
-    loss_plot_path_png = f'{directory}{base_filename}.png'
+    loss_plot_path_svg = f'{directory}/{base_filename}.svg'
+    loss_plot_path_png = f'{directory}/{base_filename}.png'
     
     fig.savefig(loss_plot_path_svg, bbox_inches='tight')
     fig.savefig(loss_plot_path_png, bbox_inches='tight')
@@ -501,7 +501,7 @@ def plot_frequency_heatmap(final_samples=None, directory=None, cmap_div=None, bo
             'y_edges': y_edges.tolist(),
             'cmap_name': cmap_div.name if hasattr(cmap_div, 'name') else None
         }
-        data_path = f'{directory}{base_filename}_data.json'
+        data_path = f'{directory}/{base_filename}_data.json'
         with open(data_path, 'w') as f:
             json.dump(data, f)
     
@@ -518,8 +518,8 @@ def plot_frequency_heatmap(final_samples=None, directory=None, cmap_div=None, bo
     plt.xlabel(r'$x$')
     plt.ylabel(r'$y$')
     
-    heatmap_path_svg = f'{directory}{base_filename}.svg'
-    heatmap_path_png = f'{directory}{base_filename}.png'
+    heatmap_path_svg = f'{directory}/{base_filename}.svg'
+    heatmap_path_png = f'{directory}/{base_filename}.png'
     
     fig.savefig(heatmap_path_svg, bbox_inches='tight')
     fig.savefig(heatmap_path_png, bbox_inches='tight')
@@ -601,7 +601,7 @@ def plot_pair_correlation(r_vals=None, g_r=None, directory=None, base_filename="
             "g_r": g_r.tolist() if isinstance(g_r, np.ndarray) else g_r.values.tolist(),
             "directory": directory
         }
-        data_path = f'{directory}{base_filename}_data.json'
+        data_path = f'{directory}/{base_filename}_data.json'
         with open(data_path, 'w') as f:
             json.dump(data, f)
     
@@ -610,8 +610,8 @@ def plot_pair_correlation(r_vals=None, g_r=None, directory=None, base_filename="
     plt.xlabel(r'$r$')
     plt.ylabel(r'$g(r)$')
     
-    pair_corr_path_svg = f'{directory}{base_filename}.svg'
-    pair_corr_path_png = f'{directory}{base_filename}.png'
+    pair_corr_path_svg = f'{directory}/{base_filename}.svg'
+    pair_corr_path_png = f'{directory}/{base_filename}.png'
     
     fig.savefig(pair_corr_path_svg, bbox_inches='tight')
     fig.savefig(pair_corr_path_png, bbox_inches='tight')
@@ -1020,6 +1020,7 @@ def plot_multiple_avg_x_coordinates(mc_runs=None, directory=None, num_runs=10,
         ax.set_title(f'MC Run {j+1:03d}', fontsize=12)
         ax.set_xlabel('Step', fontsize=10)
         ax.set_ylabel(r'$\langle x \rangle$', fontsize=10)
+        ax.set_ylim(0,10)
     
     # Hide any unused subplots
     for j in range(num_runs, len(axes)):

@@ -15,6 +15,7 @@ This repository contains the implementation of hybrid algorithms combining Norma
   - `main_algorithm_1.py`: Pre-training approach: Initial training followed by NF‐guided MCMC  
   - `main_algorithm_2.py`: On-the-fly training approach: Iterative training with periodic model updates  
   - `main_mcmc_only.py`: Standard MCMC implementation (baseline)
+- **demos/**: demo scripts for MCMC, stand-alone NF and both hybrid NF-MCMC algorithms
 
 ---
 
