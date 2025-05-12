@@ -1,1 +1,0 @@
-# takes in an experiment name (& interval of models to be analysed) and plots the rdf plot by loading in each model and generating many samples and then carrying out rdf analysis
