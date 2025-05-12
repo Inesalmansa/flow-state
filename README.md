@@ -11,12 +11,11 @@ This repository contains the implementation of hybrid algorithms combining Norma
 
 - **MCMC/**: Custom Monte Carlo implementation for molecular systems  
 - **NF/**: Modified normflows package with adaptations for molecular systems  
+- **demos/**: demo scripts for MCMC, stand-alone NF and both hybrid NF-MCMC algorithms
 - **hybrid_NF_MCMC/**: Hybrid algorithms combining NF with MCMC  
   - `main_algorithm_1.py`: Pre-training approach: Initial training followed by NF‐guided MCMC  
   - `main_algorithm_2.py`: On-the-fly training approach: Iterative training with periodic model updates  
   - `main_mcmc_only.py`: Standard MCMC implementation (baseline)
-- **demos/**: demo scripts for MCMC, stand-alone NF and both hybrid NF-MCMC algorithms
-
 ---
 
 ## Key Features
@@ -39,6 +38,8 @@ pip install -r requirements.txt
 
 ## Usage 
 ```python
+# run through jupyter notebook scripts in the 'demos/' folder to see example usage
+
 # Run baseline MCMC
 python hybrid_NF_MCMC/main_mcmc_only.py --experiment_id "mcmc_baseline"
 
